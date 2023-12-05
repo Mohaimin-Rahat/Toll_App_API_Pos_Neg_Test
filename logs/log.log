@@ -1,26 +1,96 @@
-2023-12-04 20:13:11 INFO  URL:19 - URI End Point : https://jnswdazms1.execute-api.us-east-1.amazonaws.com/dev/tollcollection
-2023-12-04 20:13:14 INFO  TestUtils:27 - Env Name: stage
-2023-12-04 20:13:14 INFO  Base:136 - Inside POSTRequest call
-2023-12-04 20:13:14 INFO  TestUtils:38 - Getting Response Code
-2023-12-04 20:13:14 INFO  TestUtils:40 - Status Code: 200
-2023-12-04 20:13:14 INFO  TestUtils:25 - Status Code is returned as expected.
-2023-12-04 20:13:14 INFO  TestUtils:64 - Getting Response Message
-2023-12-04 20:13:14 INFO  TestUtils:66 - Response Message for message: success
-2023-12-04 20:13:14 INFO  TestUtils:34 - Both texts are same
-2023-12-04 20:13:14 INFO  URL:19 - URI End Point : https://jnswdazms1.execute-api.us-east-1.amazonaws.com/dev/cognito-user-list
-2023-12-04 20:13:14 INFO  Base:150 - Inside GETRequest call
-2023-12-04 20:13:15 INFO  TestUtils:38 - Getting Response Code
-2023-12-04 20:13:15 INFO  TestUtils:40 - Status Code: 200
-2023-12-04 20:13:15 INFO  TestUtils:25 - Status Code is returned as expected.
-2023-12-04 20:13:15 INFO  TestUtils:64 - Getting Response Message
-2023-12-04 20:13:15 INFO  TestUtils:66 - Response Message for message: User List!
-2023-12-04 20:13:15 INFO  TestUtils:34 - Both texts are same
-2023-12-04 20:13:15 INFO  URL:19 - URI End Point : https://jnswdazms1.execute-api.us-east-1.amazonaws.com/dev/cognito-create-user
-2023-12-04 20:13:15 INFO  TestUtils:27 - Env Name: stage
-2023-12-04 20:13:15 INFO  Base:136 - Inside POSTRequest call
-2023-12-04 20:13:16 INFO  TestUtils:38 - Getting Response Code
-2023-12-04 20:13:16 INFO  TestUtils:40 - Status Code: 200
-2023-12-04 20:13:16 INFO  TestUtils:25 - Status Code is returned as expected.
-2023-12-04 20:13:16 INFO  TestUtils:64 - Getting Response Message
-2023-12-04 20:13:16 INFO  TestUtils:66 - Response Message for message: User Created successfully!
-2023-12-04 20:13:16 INFO  TestUtils:34 - Both texts are same
+2023-12-05 12:21:08 INFO  URL:19 - URI End Point : https://jnswdazms1.execute-api.us-east-1.amazonaws.com/dev/tollcollection
+2023-12-05 12:21:09 INFO  TestUtils:27 - Env Name: stage
+2023-12-05 12:21:09 INFO  Base:136 - Inside POSTRequest call
+2023-12-05 12:21:15 INFO  TestUtils:38 - Getting Response Code
+2023-12-05 12:21:15 INFO  TestUtils:40 - Status Code: 200
+2023-12-05 12:21:15 INFO  TestUtils:25 - Status Code is returned as expected.
+2023-12-05 12:21:15 INFO  TestUtils:64 - Getting Response Message
+2023-12-05 12:21:15 INFO  TestUtils:66 - Response Message for message: success
+2023-12-05 12:21:15 INFO  TestUtils:34 - Both texts are same
+2023-12-05 12:21:15 INFO  URL:19 - URI End Point : https://jnswdazms1.execute-api.us-east-1.amazonaws.com/dev/cognito-user-list
+2023-12-05 12:21:15 INFO  Base:150 - Inside GETRequest call
+2023-12-05 12:21:16 INFO  TestUtils:38 - Getting Response Code
+2023-12-05 12:21:16 INFO  TestUtils:40 - Status Code: 200
+2023-12-05 12:21:16 INFO  TestUtils:25 - Status Code is returned as expected.
+2023-12-05 12:21:16 INFO  TestUtils:64 - Getting Response Message
+2023-12-05 12:21:16 INFO  TestUtils:66 - Response Message for message: User List!
+2023-12-05 12:21:17 INFO  TestUtils:34 - Both texts are same
+2023-12-05 12:21:17 INFO  URL:19 - URI End Point : https://jnswdazms1.execute-api.us-east-1.amazonaws.com/dev/cognito-create-user
+2023-12-05 12:21:17 INFO  TestUtils:27 - Env Name: stage
+2023-12-05 12:21:17 INFO  Base:136 - Inside POSTRequest call
+2023-12-05 12:21:19 INFO  TestUtils:38 - Getting Response Code
+2023-12-05 12:21:19 INFO  TestUtils:40 - Status Code: 200
+2023-12-05 12:21:19 INFO  TestUtils:25 - Status Code is returned as expected.
+2023-12-05 12:21:19 INFO  TestUtils:64 - Getting Response Message
+2023-12-05 12:21:19 INFO  TestUtils:66 - Response Message for message: User Created successfully!
+2023-12-05 12:21:19 INFO  TestUtils:34 - Both texts are same
+2023-12-05 12:21:19 INFO  URL:19 - URI End Point : https://jnswdazms1.execute-api.us-east-1.amazonaws.com/dev/tollcollection-submit
+2023-12-05 12:21:19 INFO  TestUtils:27 - Env Name: stage
+2023-12-05 12:21:19 INFO  Base:136 - Inside POSTRequest call
+2023-12-05 12:21:20 INFO  TestUtils:38 - Getting Response Code
+2023-12-05 12:21:20 INFO  TestUtils:40 - Status Code: 403
+2023-12-05 12:21:20 INFO  TestUtils:25 - Status Code is returned as expected.
+2023-12-05 12:21:20 INFO  URL:19 - URI End Point : https://jnswdazms1.execute-api.us-east-1.amazonaws.com/dev/cognito-user-
+2023-12-05 12:21:20 INFO  Base:150 - Inside GETRequest call
+2023-12-05 12:21:20 INFO  TestUtils:38 - Getting Response Code
+2023-12-05 12:21:20 INFO  TestUtils:40 - Status Code: 403
+2023-12-05 12:21:20 INFO  TestUtils:25 - Status Code is returned as expected.
+2023-12-05 12:21:20 INFO  URL:19 - URI End Point : https://jnswdazms1.execute-api.us-east-1.amazonaws.com/dev/cognito-create-user
+2023-12-05 12:21:20 INFO  TestUtils:27 - Env Name: stage
+2023-12-05 12:21:20 INFO  Base:136 - Inside POSTRequest call
+2023-12-05 12:21:21 INFO  TestUtils:38 - Getting Response Code
+2023-12-05 12:21:21 INFO  TestUtils:40 - Status Code: 200
+2023-12-05 12:21:21 INFO  TestUtils:25 - Status Code is returned as expected.
+2023-12-05 12:21:21 INFO  TestUtils:64 - Getting Response Message
+2023-12-05 12:21:21 INFO  TestUtils:66 - Response Message for statusCode: 400
+2023-12-05 12:21:21 INFO  TestUtils:34 - Both texts are same
+2023-12-05 12:21:21 INFO  TestUtils:64 - Getting Response Message
+2023-12-05 12:21:21 INFO  TestUtils:66 - Response Message for message: User account already exists
+2023-12-05 12:21:21 INFO  TestUtils:34 - Both texts are same
+2023-12-05 12:21:21 INFO  URL:19 - URI End Point : https://jnswdazms1.execute-api.us-east-1.amazonaws.com/dev/tollcollection-submit
+2023-12-05 12:21:21 INFO  TestUtils:27 - Env Name: stage
+2023-12-05 12:21:21 INFO  Base:150 - Inside GETRequest call
+2023-12-05 12:21:21 INFO  TestUtils:38 - Getting Response Code
+2023-12-05 12:21:21 INFO  TestUtils:40 - Status Code: 403
+2023-12-05 12:21:21 INFO  TestUtils:25 - Status Code is returned as expected.
+2023-12-05 12:21:21 INFO  URL:19 - URI End Point : https://jnswdazms1.execute-api.us-east-1.amazonaws.com/dev/cognito-user-
+2023-12-05 12:21:22 INFO  Base:127 - Inside POSTRequest call
+2023-12-05 12:21:22 INFO  TestUtils:38 - Getting Response Code
+2023-12-05 12:21:22 INFO  TestUtils:40 - Status Code: 403
+2023-12-05 12:21:22 INFO  TestUtils:25 - Status Code is returned as expected.
+2023-12-05 12:21:22 INFO  URL:19 - URI End Point : https://jnswdazms1.execute-api.us-east-1.amazonaws.com/dev/cognito-create
+2023-12-05 12:21:22 INFO  TestUtils:27 - Env Name: stage
+2023-12-05 12:21:22 INFO  Base:136 - Inside POSTRequest call
+2023-12-05 12:21:22 INFO  TestUtils:38 - Getting Response Code
+2023-12-05 12:21:22 INFO  TestUtils:40 - Status Code: 403
+2023-12-05 12:21:22 INFO  TestUtils:25 - Status Code is returned as expected.
+2023-12-05 12:21:22 INFO  URL:19 - URI End Point : https://jnswdazms1.execute-api.us-east-1.amazonaws.com/dev/cognito-create-user
+2023-12-05 12:21:23 INFO  TestUtils:27 - Env Name: stage
+2023-12-05 12:21:23 INFO  Base:136 - Inside POSTRequest call
+2023-12-05 12:21:23 INFO  TestUtils:38 - Getting Response Code
+2023-12-05 12:21:23 INFO  TestUtils:40 - Status Code: 401
+2023-12-05 12:21:23 INFO  TestUtils:25 - Status Code is returned as expected.
+2023-12-05 12:21:23 INFO  URL:19 - URI End Point : https://jnswdazms1.execute-api.us-east-1.amazonaws.com/dev/cognito-create-user
+2023-12-05 12:21:23 INFO  TestUtils:27 - Env Name: stage
+2023-12-05 12:21:23 INFO  Base:136 - Inside POSTRequest call
+2023-12-05 12:21:23 INFO  TestUtils:64 - Getting Response Message
+2023-12-05 12:21:23 INFO  TestUtils:66 - Response Message for statusCode: 400
+2023-12-05 12:21:23 INFO  TestUtils:34 - Both texts are same
+2023-12-05 12:21:23 INFO  TestUtils:64 - Getting Response Message
+2023-12-05 12:21:23 INFO  TestUtils:66 - Response Message for message: Invalid email address format.
+2023-12-05 12:21:23 INFO  TestUtils:34 - Both texts are same
+2023-12-05 12:21:23 INFO  TestUtils:64 - Getting Response Message
+2023-12-05 12:21:23 INFO  TestUtils:66 - Response Message for IsSuccess: No
+2023-12-05 12:21:23 INFO  TestUtils:34 - Both texts are same
+2023-12-05 12:21:23 INFO  URL:19 - URI End Point : https://jnswdazms1.execute-api.us-east-1.amazonaws.com/dev/cognito-create-user
+2023-12-05 12:21:24 INFO  TestUtils:27 - Env Name: stage
+2023-12-05 12:21:24 INFO  Base:136 - Inside POSTRequest call
+2023-12-05 12:21:24 INFO  TestUtils:64 - Getting Response Message
+2023-12-05 12:21:24 INFO  TestUtils:66 - Response Message for statusCode: 400
+2023-12-05 12:21:24 INFO  TestUtils:34 - Both texts are same
+2023-12-05 12:21:24 INFO  TestUtils:64 - Getting Response Message
+2023-12-05 12:21:24 INFO  TestUtils:66 - Response Message for IsSuccess: No
+2023-12-05 12:21:24 INFO  TestUtils:34 - Both texts are same
+2023-12-05 12:21:24 INFO  TestUtils:64 - Getting Response Message
+2023-12-05 12:21:24 INFO  TestUtils:66 - Response Message for message: Password did not conform with password policy: Password must have symbol characters
+2023-12-05 12:21:24 INFO  TestUtils:34 - Both texts are same
