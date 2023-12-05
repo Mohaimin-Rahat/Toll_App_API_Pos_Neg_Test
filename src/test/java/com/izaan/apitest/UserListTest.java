@@ -29,12 +29,12 @@ public class UserListTest {
         BaseAssertion.verifyStatusCode(rs,200);
         BaseAssertion.verifySpecificMessage(rs,"message","User List!");
     }
-    @Test (priority = 2)
+    @Test (priority = 2,groups = "acceptenceTests")
     public void validateUserListWithInvalidURL(){
         Response rs= UserList.getUserListwithInvalidURL();
         BaseAssertion.verifyStatusCode(rs,403);
     }
-    @Test (priority = 3)
+    @Test (priority = 3,groups = "acceptenceTests")
     public void validateUserListWithInvalidResponseMethod(){
         Response rs= UserList.getUserListwithWrongMethod();
         BaseAssertion.verifyStatusCode(rs,403);
