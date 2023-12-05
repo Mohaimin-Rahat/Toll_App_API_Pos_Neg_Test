@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Test" parallel="false" >
+    <test name = "Ecommerce Home">
+        <classes>
+            <class name="com.izaan.apitest.SubmitTollRequestTest"></class>
+           <class name="com.izaan.apitest.UserListTest"></class>
+            <class name="com.izaan.apitest.CreateUserRequestTest">
+                <!--<methods>
+                    <exclude name="validateUserCreation"></exclude>
+                </methods>-->
+              
+            </class>
+            <!--<class name="tollappapitest.TollAppLogInRequestTest"/>
+            <class name="tollappapitest.TollAppCreateUserRequestTest"/>
+            <class name="tollappapitest.TollUserListRequestTest"/>-->
+        </classes>
+
+    </test>
+
+</suite>
