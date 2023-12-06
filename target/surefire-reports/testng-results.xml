@@ -1,156 +1,264 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-05T22:21:11 EST" name="Automation Test" finished-at="2023-12-05T22:21:23 EST" duration-ms="12506">
+  <suite started-at="2023-12-05T22:45:35 EST" name="Automation Test" finished-at="2023-12-05T22:45:55 EST" duration-ms="19864">
     <groups>
       <group name="acceptenceTests">
-        <method signature="CreateUserRequestTest.validateUserCreation()[pri:1, instance:com.izaan.apitest.CreateUserRequestTest@fe18270]" name="validateUserCreation" class="com.izaan.apitest.CreateUserRequestTest"/>
-        <method signature="SubmitTollRequestTest.validateSubmitToll()[pri:1, instance:com.izaan.apitest.SubmitTollRequestTest@5fdba6f9]" name="validateSubmitToll" class="com.izaan.apitest.SubmitTollRequestTest"/>
-        <method signature="UserListTest.validateUserList()[pri:1, instance:com.izaan.apitest.UserListTest@10d59286]" name="validateUserList" class="com.izaan.apitest.UserListTest"/>
-        <method signature="UserListTest.validateUserListWithInvalidResponseMethod()[pri:3, instance:com.izaan.apitest.UserListTest@10d59286]" name="validateUserListWithInvalidResponseMethod" class="com.izaan.apitest.UserListTest"/>
-        <method signature="UserListTest.validateUserListWithInvalidURL()[pri:2, instance:com.izaan.apitest.UserListTest@10d59286]" name="validateUserListWithInvalidURL" class="com.izaan.apitest.UserListTest"/>
+        <method signature="CreateUserRequestTest.validateUserCreation()[pri:1, instance:com.izaan.apitest.CreateUserRequestTest@4516af24]" name="validateUserCreation" class="com.izaan.apitest.CreateUserRequestTest"/>
+        <method signature="SubmitTollRequestTest.validateSubmitToll()[pri:1, instance:com.izaan.apitest.SubmitTollRequestTest@103f852]" name="validateSubmitToll" class="com.izaan.apitest.SubmitTollRequestTest"/>
+        <method signature="UserListTest.validateUserList()[pri:1, instance:com.izaan.apitest.UserListTest@587c290d]" name="validateUserList" class="com.izaan.apitest.UserListTest"/>
+        <method signature="UserListTest.validateUserListWithInvalidResponseMethod()[pri:3, instance:com.izaan.apitest.UserListTest@587c290d]" name="validateUserListWithInvalidResponseMethod" class="com.izaan.apitest.UserListTest"/>
+        <method signature="UserListTest.validateUserListWithInvalidURL()[pri:2, instance:com.izaan.apitest.UserListTest@587c290d]" name="validateUserListWithInvalidURL" class="com.izaan.apitest.UserListTest"/>
       </group> <!-- acceptenceTests -->
     </groups>
-    <test started-at="2023-12-05T22:21:11 EST" name="Ecommerce Home" finished-at="2023-12-05T22:21:23 EST" duration-ms="12506">
+    <test started-at="2023-12-05T22:45:35 EST" name="Ecommerce Home" finished-at="2023-12-05T22:45:55 EST" duration-ms="19864">
+      <class name="com.izaan.apitest.GetTollCollectionListTest">
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.GetTollCollectionListTest@6d3af739]" started-at="2023-12-05T22:45:45 EST" name="beforeTests" finished-at="2023-12-05T22:45:45 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTests -->
+        <test-method signature="getTollCollectionListTest()[pri:1, instance:com.izaan.apitest.GetTollCollectionListTest@6d3af739]" started-at="2023-12-05T22:45:45 EST" name="getTollCollectionListTest" finished-at="2023-12-05T22:45:46 EST" duration-ms="907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTollCollectionListTest -->
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.GetTollCollectionListTest@6d3af739]" started-at="2023-12-05T22:45:50 EST" name="beforeTests" finished-at="2023-12-05T22:45:50 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTests -->
+        <test-method signature="getTollCollectionListTestWithInvalidUrl()[pri:2, instance:com.izaan.apitest.GetTollCollectionListTest@6d3af739]" started-at="2023-12-05T22:45:50 EST" name="getTollCollectionListTestWithInvalidUrl" finished-at="2023-12-05T22:45:51 EST" duration-ms="492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTollCollectionListTestWithInvalidUrl -->
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.GetTollCollectionListTest@6d3af739]" started-at="2023-12-05T22:45:53 EST" name="beforeTests" finished-at="2023-12-05T22:45:53 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTests -->
+        <test-method signature="getTollCollectionListTestWithInvalidToken()[pri:3, instance:com.izaan.apitest.GetTollCollectionListTest@6d3af739]" started-at="2023-12-05T22:45:53 EST" name="getTollCollectionListTestWithInvalidToken" finished-at="2023-12-05T22:45:53 EST" duration-ms="479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTollCollectionListTestWithInvalidToken -->
+        <test-method is-config="true" signature="aftertests()[pri:0, instance:com.izaan.apitest.GetTollCollectionListTest@6d3af739]" started-at="2023-12-05T22:45:53 EST" name="aftertests" finished-at="2023-12-05T22:45:53 EST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertests -->
+      </class> <!-- com.izaan.apitest.GetTollCollectionListTest -->
+      <class name="com.izaan.apitest.LoginTest">
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.LoginTest@4ae82894]" started-at="2023-12-05T22:45:42 EST" name="beforeTests" finished-at="2023-12-05T22:45:42 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTests -->
+        <test-method signature="loginTest()[pri:1, instance:com.izaan.apitest.LoginTest@4ae82894]" started-at="2023-12-05T22:45:42 EST" name="loginTest" finished-at="2023-12-05T22:45:43 EST" duration-ms="1079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterTests()[pri:0, instance:com.izaan.apitest.LoginTest@4ae82894]" started-at="2023-12-05T22:45:43 EST" name="afterTests" finished-at="2023-12-05T22:45:43 EST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTests -->
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.LoginTest@4ae82894]" started-at="2023-12-05T22:45:49 EST" name="beforeTests" finished-at="2023-12-05T22:45:49 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTests -->
+        <test-method signature="loginTestWithInvalidUser()[pri:2, instance:com.izaan.apitest.LoginTest@4ae82894]" started-at="2023-12-05T22:45:49 EST" name="loginTestWithInvalidUser" finished-at="2023-12-05T22:45:50 EST" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWithInvalidUser -->
+        <test-method is-config="true" signature="afterTests()[pri:0, instance:com.izaan.apitest.LoginTest@4ae82894]" started-at="2023-12-05T22:45:50 EST" name="afterTests" finished-at="2023-12-05T22:45:50 EST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTests -->
+      </class> <!-- com.izaan.apitest.LoginTest -->
+      <class name="com.izaan.apitest.ResetPasswordTest">
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.ResetPasswordTest@1da51a35]" started-at="2023-12-05T22:45:46 EST" name="beforeTests" finished-at="2023-12-05T22:45:46 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTests -->
+        <test-method signature="resetTestSuccess()[pri:1, instance:com.izaan.apitest.ResetPasswordTest@1da51a35]" started-at="2023-12-05T22:45:46 EST" name="resetTestSuccess" finished-at="2023-12-05T22:45:47 EST" duration-ms="1030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetTestSuccess -->
+        <test-method is-config="true" signature="afterTests()[pri:0, instance:com.izaan.apitest.ResetPasswordTest@1da51a35]" started-at="2023-12-05T22:45:47 EST" name="afterTests" finished-at="2023-12-05T22:45:47 EST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTests -->
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.ResetPasswordTest@1da51a35]" started-at="2023-12-05T22:45:51 EST" name="beforeTests" finished-at="2023-12-05T22:45:51 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTests -->
+        <test-method signature="resetTestFail()[pri:2, instance:com.izaan.apitest.ResetPasswordTest@1da51a35]" started-at="2023-12-05T22:45:51 EST" name="resetTestFail" finished-at="2023-12-05T22:45:51 EST" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetTestFail -->
+        <test-method is-config="true" signature="afterTests()[pri:0, instance:com.izaan.apitest.ResetPasswordTest@1da51a35]" started-at="2023-12-05T22:45:51 EST" name="afterTests" finished-at="2023-12-05T22:45:51 EST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTests -->
+      </class> <!-- com.izaan.apitest.ResetPasswordTest -->
       <class name="com.izaan.apitest.CreateUserRequestTest">
-        <test-method signature="validateUserCreation()[pri:1, instance:com.izaan.apitest.CreateUserRequestTest@fe18270]" started-at="2023-12-05T22:21:16 EST" name="validateUserCreation" finished-at="2023-12-05T22:21:18 EST" duration-ms="2188" status="PASS">
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.CreateUserRequestTest@4516af24]" started-at="2023-12-05T22:45:40 EST" name="beforeTests" finished-at="2023-12-05T22:45:40 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTests -->
+        <test-method signature="validateUserCreation()[pri:1, instance:com.izaan.apitest.CreateUserRequestTest@4516af24]" started-at="2023-12-05T22:45:40 EST" name="validateUserCreation" finished-at="2023-12-05T22:45:42 EST" duration-ms="1369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUserCreation -->
-        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.CreateUserRequestTest@fe18270]" started-at="2023-12-05T22:21:16 EST" name="beforeTests" finished-at="2023-12-05T22:21:16 EST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTests -->
-        <test-method is-config="true" signature="afterTests()[pri:0, instance:com.izaan.apitest.CreateUserRequestTest@fe18270]" started-at="2023-12-05T22:21:18 EST" name="afterTests" finished-at="2023-12-05T22:21:18 EST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="afterTests()[pri:0, instance:com.izaan.apitest.CreateUserRequestTest@4516af24]" started-at="2023-12-05T22:45:42 EST" name="afterTests" finished-at="2023-12-05T22:45:42 EST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTests -->
-        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.CreateUserRequestTest@fe18270]" started-at="2023-12-05T22:21:19 EST" name="beforeTests" finished-at="2023-12-05T22:21:19 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.CreateUserRequestTest@4516af24]" started-at="2023-12-05T22:45:48 EST" name="beforeTests" finished-at="2023-12-05T22:45:48 EST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTests -->
-        <test-method signature="validateUserCreationWithExistingUsername()[pri:2, instance:com.izaan.apitest.CreateUserRequestTest@fe18270]" started-at="2023-12-05T22:21:19 EST" name="validateUserCreationWithExistingUsername" finished-at="2023-12-05T22:21:20 EST" duration-ms="755" status="PASS">
+        <test-method signature="validateUserCreationWithExistingUsername()[pri:2, instance:com.izaan.apitest.CreateUserRequestTest@4516af24]" started-at="2023-12-05T22:45:48 EST" name="validateUserCreationWithExistingUsername" finished-at="2023-12-05T22:45:49 EST" duration-ms="605" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUserCreationWithExistingUsername -->
-        <test-method is-config="true" signature="afterTests()[pri:0, instance:com.izaan.apitest.CreateUserRequestTest@fe18270]" started-at="2023-12-05T22:21:20 EST" name="afterTests" finished-at="2023-12-05T22:21:20 EST" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="afterTests()[pri:0, instance:com.izaan.apitest.CreateUserRequestTest@4516af24]" started-at="2023-12-05T22:45:49 EST" name="afterTests" finished-at="2023-12-05T22:45:49 EST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTests -->
-        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.CreateUserRequestTest@fe18270]" started-at="2023-12-05T22:21:21 EST" name="beforeTests" finished-at="2023-12-05T22:21:21 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.CreateUserRequestTest@4516af24]" started-at="2023-12-05T22:45:52 EST" name="beforeTests" finished-at="2023-12-05T22:45:52 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTests -->
-        <test-method signature="validateUserCreationWithInvalidURL()[pri:3, instance:com.izaan.apitest.CreateUserRequestTest@fe18270]" started-at="2023-12-05T22:21:21 EST" name="validateUserCreationWithInvalidURL" finished-at="2023-12-05T22:21:22 EST" duration-ms="477" status="PASS">
+        <test-method signature="validateUserCreationWithInvalidURL()[pri:3, instance:com.izaan.apitest.CreateUserRequestTest@4516af24]" started-at="2023-12-05T22:45:52 EST" name="validateUserCreationWithInvalidURL" finished-at="2023-12-05T22:45:53 EST" duration-ms="486" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUserCreationWithInvalidURL -->
-        <test-method is-config="true" signature="afterTests()[pri:0, instance:com.izaan.apitest.CreateUserRequestTest@fe18270]" started-at="2023-12-05T22:21:22 EST" name="afterTests" finished-at="2023-12-05T22:21:22 EST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="afterTests()[pri:0, instance:com.izaan.apitest.CreateUserRequestTest@4516af24]" started-at="2023-12-05T22:45:53 EST" name="afterTests" finished-at="2023-12-05T22:45:53 EST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTests -->
-        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.CreateUserRequestTest@fe18270]" started-at="2023-12-05T22:21:22 EST" name="beforeTests" finished-at="2023-12-05T22:21:22 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.CreateUserRequestTest@4516af24]" started-at="2023-12-05T22:45:53 EST" name="beforeTests" finished-at="2023-12-05T22:45:53 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTests -->
-        <test-method signature="validateUserCreationWithInvalidToken()[pri:4, instance:com.izaan.apitest.CreateUserRequestTest@fe18270]" started-at="2023-12-05T22:21:22 EST" name="validateUserCreationWithInvalidToken" finished-at="2023-12-05T22:21:22 EST" duration-ms="500" status="PASS">
+        <test-method signature="validateUserCreationWithInvalidToken()[pri:4, instance:com.izaan.apitest.CreateUserRequestTest@4516af24]" started-at="2023-12-05T22:45:53 EST" name="validateUserCreationWithInvalidToken" finished-at="2023-12-05T22:45:54 EST" duration-ms="506" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUserCreationWithInvalidToken -->
-        <test-method is-config="true" signature="afterTests()[pri:0, instance:com.izaan.apitest.CreateUserRequestTest@fe18270]" started-at="2023-12-05T22:21:22 EST" name="afterTests" finished-at="2023-12-05T22:21:22 EST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="afterTests()[pri:0, instance:com.izaan.apitest.CreateUserRequestTest@4516af24]" started-at="2023-12-05T22:45:54 EST" name="afterTests" finished-at="2023-12-05T22:45:54 EST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTests -->
-        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.CreateUserRequestTest@fe18270]" started-at="2023-12-05T22:21:22 EST" name="beforeTests" finished-at="2023-12-05T22:21:22 EST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTests -->
-        <test-method signature="validateUserCreationWithInvalidEmailID()[pri:5, instance:com.izaan.apitest.CreateUserRequestTest@fe18270]" started-at="2023-12-05T22:21:22 EST" name="validateUserCreationWithInvalidEmailID" finished-at="2023-12-05T22:21:23 EST" duration-ms="597" status="PASS">
+        <test-method signature="validateUserCreationWithInvalidEmailID()[pri:5, instance:com.izaan.apitest.CreateUserRequestTest@4516af24]" started-at="2023-12-05T22:45:54 EST" name="validateUserCreationWithInvalidEmailID" finished-at="2023-12-05T22:45:54 EST" duration-ms="613" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUserCreationWithInvalidEmailID -->
-        <test-method is-config="true" signature="afterTests()[pri:0, instance:com.izaan.apitest.CreateUserRequestTest@fe18270]" started-at="2023-12-05T22:21:23 EST" name="afterTests" finished-at="2023-12-05T22:21:23 EST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTests -->
-        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.CreateUserRequestTest@fe18270]" started-at="2023-12-05T22:21:23 EST" name="beforeTests" finished-at="2023-12-05T22:21:23 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.CreateUserRequestTest@4516af24]" started-at="2023-12-05T22:45:54 EST" name="beforeTests" finished-at="2023-12-05T22:45:54 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTests -->
-        <test-method signature="validateUserCreationWithInvalidPasswordFormat()[pri:6, instance:com.izaan.apitest.CreateUserRequestTest@fe18270]" started-at="2023-12-05T22:21:23 EST" name="validateUserCreationWithInvalidPasswordFormat" finished-at="2023-12-05T22:21:23 EST" duration-ms="675" status="PASS">
+        <test-method is-config="true" signature="afterTests()[pri:0, instance:com.izaan.apitest.CreateUserRequestTest@4516af24]" started-at="2023-12-05T22:45:54 EST" name="afterTests" finished-at="2023-12-05T22:45:54 EST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTests -->
+        <test-method signature="validateUserCreationWithInvalidPasswordFormat()[pri:6, instance:com.izaan.apitest.CreateUserRequestTest@4516af24]" started-at="2023-12-05T22:45:54 EST" name="validateUserCreationWithInvalidPasswordFormat" finished-at="2023-12-05T22:45:55 EST" duration-ms="548" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUserCreationWithInvalidPasswordFormat -->
-        <test-method is-config="true" signature="afterTests()[pri:0, instance:com.izaan.apitest.CreateUserRequestTest@fe18270]" started-at="2023-12-05T22:21:23 EST" name="afterTests" finished-at="2023-12-05T22:21:23 EST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.CreateUserRequestTest@4516af24]" started-at="2023-12-05T22:45:54 EST" name="beforeTests" finished-at="2023-12-05T22:45:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTests -->
+        <test-method is-config="true" signature="afterTests()[pri:0, instance:com.izaan.apitest.CreateUserRequestTest@4516af24]" started-at="2023-12-05T22:45:55 EST" name="afterTests" finished-at="2023-12-05T22:45:55 EST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTests -->
       </class> <!-- com.izaan.apitest.CreateUserRequestTest -->
       <class name="com.izaan.apitest.SubmitTollRequestTest">
-        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.SubmitTollRequestTest@5fdba6f9]" started-at="2023-12-05T22:21:11 EST" name="beforeTests" finished-at="2023-12-05T22:21:11 EST" duration-ms="125" status="PASS">
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.SubmitTollRequestTest@103f852]" started-at="2023-12-05T22:45:35 EST" name="beforeTests" finished-at="2023-12-05T22:45:35 EST" duration-ms="122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTests -->
-        <test-method signature="validateSubmitToll()[pri:1, instance:com.izaan.apitest.SubmitTollRequestTest@5fdba6f9]" started-at="2023-12-05T22:21:11 EST" name="validateSubmitToll" finished-at="2023-12-05T22:21:14 EST" duration-ms="3331" status="PASS">
+        <test-method signature="validateSubmitToll()[pri:1, instance:com.izaan.apitest.SubmitTollRequestTest@103f852]" started-at="2023-12-05T22:45:35 EST" name="validateSubmitToll" finished-at="2023-12-05T22:45:39 EST" duration-ms="3439" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSubmitToll -->
-        <test-method is-config="true" signature="afterTests()[pri:0, instance:com.izaan.apitest.SubmitTollRequestTest@5fdba6f9]" started-at="2023-12-05T22:21:14 EST" name="afterTests" finished-at="2023-12-05T22:21:14 EST" duration-ms="156" status="PASS">
+        <test-method is-config="true" signature="afterTests()[pri:0, instance:com.izaan.apitest.SubmitTollRequestTest@103f852]" started-at="2023-12-05T22:45:39 EST" name="afterTests" finished-at="2023-12-05T22:45:39 EST" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTests -->
-        <test-method signature="submitTollWithWrongURL()[pri:2, instance:com.izaan.apitest.SubmitTollRequestTest@5fdba6f9]" started-at="2023-12-05T22:21:18 EST" name="submitTollWithWrongURL" finished-at="2023-12-05T22:21:19 EST" duration-ms="496" status="PASS">
+        <test-method signature="submitTollWithWrongURL()[pri:2, instance:com.izaan.apitest.SubmitTollRequestTest@103f852]" started-at="2023-12-05T22:45:47 EST" name="submitTollWithWrongURL" finished-at="2023-12-05T22:45:48 EST" duration-ms="529" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitTollWithWrongURL -->
-        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.SubmitTollRequestTest@5fdba6f9]" started-at="2023-12-05T22:21:18 EST" name="beforeTests" finished-at="2023-12-05T22:21:18 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.SubmitTollRequestTest@103f852]" started-at="2023-12-05T22:45:47 EST" name="beforeTests" finished-at="2023-12-05T22:45:47 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTests -->
-        <test-method is-config="true" signature="afterTests()[pri:0, instance:com.izaan.apitest.SubmitTollRequestTest@5fdba6f9]" started-at="2023-12-05T22:21:19 EST" name="afterTests" finished-at="2023-12-05T22:21:19 EST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="afterTests()[pri:0, instance:com.izaan.apitest.SubmitTollRequestTest@103f852]" started-at="2023-12-05T22:45:48 EST" name="afterTests" finished-at="2023-12-05T22:45:48 EST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTests -->
-        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.SubmitTollRequestTest@5fdba6f9]" started-at="2023-12-05T22:21:20 EST" name="beforeTests" finished-at="2023-12-05T22:21:20 EST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTests -->
-        <test-method signature="submitTollWithWrongResponseMethod()[pri:3, instance:com.izaan.apitest.SubmitTollRequestTest@5fdba6f9]" started-at="2023-12-05T22:21:20 EST" name="submitTollWithWrongResponseMethod" finished-at="2023-12-05T22:21:21 EST" duration-ms="512" status="PASS">
+        <test-method signature="submitTollWithWrongResponseMethod()[pri:3, instance:com.izaan.apitest.SubmitTollRequestTest@103f852]" started-at="2023-12-05T22:45:51 EST" name="submitTollWithWrongResponseMethod" finished-at="2023-12-05T22:45:52 EST" duration-ms="466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitTollWithWrongResponseMethod -->
-        <test-method is-config="true" signature="afterTests()[pri:0, instance:com.izaan.apitest.SubmitTollRequestTest@5fdba6f9]" started-at="2023-12-05T22:21:21 EST" name="afterTests" finished-at="2023-12-05T22:21:21 EST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.SubmitTollRequestTest@103f852]" started-at="2023-12-05T22:45:51 EST" name="beforeTests" finished-at="2023-12-05T22:45:51 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTests -->
+        <test-method is-config="true" signature="afterTests()[pri:0, instance:com.izaan.apitest.SubmitTollRequestTest@103f852]" started-at="2023-12-05T22:45:52 EST" name="afterTests" finished-at="2023-12-05T22:45:52 EST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTests -->
       </class> <!-- com.izaan.apitest.SubmitTollRequestTest -->
+      <class name="com.izaan.apitest.GetTollListByCollectionPointTest">
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.GetTollListByCollectionPointTest@543788f3]" started-at="2023-12-05T22:45:43 EST" name="beforeTests" finished-at="2023-12-05T22:45:43 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTests -->
+        <test-method signature="getTollListBYCollectionTestSuccess()[pri:1, instance:com.izaan.apitest.GetTollListByCollectionPointTest@543788f3]" started-at="2023-12-05T22:45:43 EST" name="getTollListBYCollectionTestSuccess" finished-at="2023-12-05T22:45:45 EST" duration-ms="2720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTollListBYCollectionTestSuccess -->
+        <test-method is-config="true" signature="afterTests()[pri:0, instance:com.izaan.apitest.GetTollListByCollectionPointTest@543788f3]" started-at="2023-12-05T22:45:45 EST" name="afterTests" finished-at="2023-12-05T22:45:45 EST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTests -->
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.GetTollListByCollectionPointTest@543788f3]" started-at="2023-12-05T22:45:50 EST" name="beforeTests" finished-at="2023-12-05T22:45:50 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTests -->
+        <test-method signature="getTollListBYCollectionTestFail()[pri:2, instance:com.izaan.apitest.GetTollListByCollectionPointTest@543788f3]" started-at="2023-12-05T22:45:50 EST" name="getTollListBYCollectionTestFail" finished-at="2023-12-05T22:45:50 EST" duration-ms="540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTollListBYCollectionTestFail -->
+        <test-method is-config="true" signature="afterTests()[pri:0, instance:com.izaan.apitest.GetTollListByCollectionPointTest@543788f3]" started-at="2023-12-05T22:45:50 EST" name="afterTests" finished-at="2023-12-05T22:45:50 EST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTests -->
+      </class> <!-- com.izaan.apitest.GetTollListByCollectionPointTest -->
       <class name="com.izaan.apitest.UserListTest">
-        <test-method signature="validateUserList()[pri:1, instance:com.izaan.apitest.UserListTest@10d59286]" started-at="2023-12-05T22:21:14 EST" name="validateUserList" finished-at="2023-12-05T22:21:16 EST" duration-ms="1609" status="PASS">
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.UserListTest@587c290d]" started-at="2023-12-05T22:45:39 EST" name="beforeTests" finished-at="2023-12-05T22:45:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTests -->
+        <test-method signature="validateUserList()[pri:1, instance:com.izaan.apitest.UserListTest@587c290d]" started-at="2023-12-05T22:45:39 EST" name="validateUserList" finished-at="2023-12-05T22:45:40 EST" duration-ms="1553" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUserList -->
-        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.UserListTest@10d59286]" started-at="2023-12-05T22:21:14 EST" name="beforeTests" finished-at="2023-12-05T22:21:14 EST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTests -->
-        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.UserListTest@10d59286]" started-at="2023-12-05T22:21:19 EST" name="beforeTests" finished-at="2023-12-05T22:21:19 EST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTests -->
-        <test-method signature="validateUserListWithInvalidURL()[pri:2, instance:com.izaan.apitest.UserListTest@10d59286]" started-at="2023-12-05T22:21:19 EST" name="validateUserListWithInvalidURL" finished-at="2023-12-05T22:21:19 EST" duration-ms="497" status="PASS">
+        <test-method signature="validateUserListWithInvalidURL()[pri:2, instance:com.izaan.apitest.UserListTest@587c290d]" started-at="2023-12-05T22:45:48 EST" name="validateUserListWithInvalidURL" finished-at="2023-12-05T22:45:48 EST" duration-ms="391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUserListWithInvalidURL -->
-        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.UserListTest@10d59286]" started-at="2023-12-05T22:21:21 EST" name="beforeTests" finished-at="2023-12-05T22:21:21 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.UserListTest@587c290d]" started-at="2023-12-05T22:45:48 EST" name="beforeTests" finished-at="2023-12-05T22:45:48 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTests -->
-        <test-method signature="validateUserListWithInvalidResponseMethod()[pri:3, instance:com.izaan.apitest.UserListTest@10d59286]" started-at="2023-12-05T22:21:21 EST" name="validateUserListWithInvalidResponseMethod" finished-at="2023-12-05T22:21:21 EST" duration-ms="486" status="PASS">
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.izaan.apitest.UserListTest@587c290d]" started-at="2023-12-05T22:45:52 EST" name="beforeTests" finished-at="2023-12-05T22:45:52 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTests -->
+        <test-method signature="validateUserListWithInvalidResponseMethod()[pri:3, instance:com.izaan.apitest.UserListTest@587c290d]" started-at="2023-12-05T22:45:52 EST" name="validateUserListWithInvalidResponseMethod" finished-at="2023-12-05T22:45:52 EST" duration-ms="388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUserListWithInvalidResponseMethod -->
-        <test-method is-config="true" signature="aftertests()[pri:0, instance:com.izaan.apitest.UserListTest@10d59286]" started-at="2023-12-05T22:21:21 EST" name="aftertests" finished-at="2023-12-05T22:21:21 EST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="aftertests()[pri:0, instance:com.izaan.apitest.UserListTest@587c290d]" started-at="2023-12-05T22:45:52 EST" name="aftertests" finished-at="2023-12-05T22:45:52 EST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftertests -->

@@ -6,12 +6,16 @@
         <classes>
             <class name="com.izaan.apitest.SubmitTollRequestTest"></class>
            <class name="com.izaan.apitest.UserListTest"></class>
-            <class name="com.izaan.apitest.CreateUserRequestTest">
+            <class name="com.izaan.apitest.CreateUserRequestTest"></class>
+            <class name="com.izaan.apitest.LoginTest"></class>
+            <class name="com.izaan.apitest.GetTollListByCollectionPointTest"></class>
+            <class name="com.izaan.apitest.GetTollCollectionListTest"></class>
+            <class name="com.izaan.apitest.ResetPasswordTest"></class>
                 <!--<methods>
                     <exclude name="validateUserCreation"></exclude>
                 </methods>-->
               
-            </class>
+
             <!--<class name="tollappapitest.TollAppLogInRequestTest"/>
             <class name="tollappapitest.TollAppCreateUserRequestTest"/>
             <class name="tollappapitest.TollUserListRequestTest"/>-->

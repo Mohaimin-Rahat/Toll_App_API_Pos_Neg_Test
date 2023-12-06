@@ -1,8 +1,9 @@
-2023-12-05 22:20:39 INFO  URL:19 - URI End Point : https://jnswdazms1.execute-api.us-east-1.amazonaws.com/dev/toll-collection-list
-2023-12-05 22:20:41 INFO  Base:159 - Inside GETRequest call
-2023-12-05 22:20:42 INFO  TestUtils:64 - Getting Response Message
-2023-12-05 22:20:42 INFO  TestUtils:66 - Response Message for message: Unauthorized
-2023-12-05 22:20:42 INFO  TestUtils:34 - Both texts are same
-2023-12-05 22:20:42 INFO  TestUtils:38 - Getting Response Code
-2023-12-05 22:20:42 INFO  TestUtils:40 - Status Code: 401
-2023-12-05 22:20:42 INFO  TestUtils:25 - Status Code is returned as expected.
+2023-12-05 22:44:43 INFO  URL:19 - URI End Point : https://jnswdazms1.execute-api.us-east-1.amazonaws.com/dev/cognito-admin-set-user-password
+2023-12-05 22:44:43 INFO  TestUtils:27 - Env Name: stage
+2023-12-05 22:44:43 INFO  Base:136 - Inside POSTRequest call
+2023-12-05 22:44:45 INFO  TestUtils:64 - Getting Response Message
+2023-12-05 22:44:45 INFO  TestUtils:66 - Response Message for statusCode: 200
+2023-12-05 22:44:45 INFO  TestUtils:34 - Both texts are same
+2023-12-05 22:44:45 INFO  TestUtils:64 - Getting Response Message
+2023-12-05 22:44:45 INFO  TestUtils:66 - Response Message for message: Password set successfully!
+2023-12-05 22:44:45 INFO  TestUtils:34 - Both texts are same
