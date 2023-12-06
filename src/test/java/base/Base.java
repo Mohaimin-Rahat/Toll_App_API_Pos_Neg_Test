@@ -154,6 +154,15 @@ public class Base {
         log.debug(requestSpecification.log().all());
         return response;
     }
+    public static Response GETRequest(String uRI,String bearerToken,String key,String value) {
+
+        log.info("Inside GETRequest call");
+        RequestSpecification requestSpecification = RestAssured.given().header("Authorization", bearerToken).header(key,value);
+        requestSpecification.contentType(ContentType.JSON);
+        Response response = requestSpecification.get(uRI);
+        log.debug(requestSpecification.log().all());
+        return response;
+    }
     /*public static Response POSTRequest(String uRI, String strJSON, String sessionID) {
         log.info("Inside POSTRequest call");
         RequestSpecification requestSpecification = RestAssured.given().body(strJSON);
